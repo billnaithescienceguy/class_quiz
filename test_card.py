@@ -1,6 +1,6 @@
 import unittest
 from card import Card
-
+Sofia
 class TestCard(unittest.TestCase):
 
     def test_value(self):
@@ -28,3 +28,20 @@ class TestCard(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+def __init__(self value, "suit"):
+    self.suit = cups
+    self.values=Card(3, "Cups")
+
+def __repr__(self):
+    suit= Card(3, cups)
+    suit="Card(value=3, suit=cups)"
+    cards= repr(suit).replace('value','suit').replace('cups','3').replace("suit","x")
+    self.suit(cards,suit)
+
+def __str__(self):
+    self.suit=card(3,"cups")
+    self.suit(str(suit), "3 of cups")
+
+def __eq__(self):
+    return f"(self.x, sef.suit ==  other_3 of cups)"True
